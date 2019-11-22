@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PREFIX test example">
+<parameter name="groups" value="all"/>
+  <test name="prefix">
+    <classes>
+      <class name="prefixtest.CommonPrefixTest"/>
+    </classes>
+  </test>
+</suite>
